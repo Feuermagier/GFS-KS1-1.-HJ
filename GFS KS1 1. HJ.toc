@@ -1,0 +1,8 @@
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Eigenschaften von Modellen}{11}{0}{1}
+\beamer@sectionintoc {2}{Arten von Modellen}{29}{0}{2}
+\beamer@sectionintoc {3}{Beispiele}{32}{0}{3}
+\beamer@subsectionintoc {3}{1}{Au\IeC {\ss }erhalb der Chemie}{32}{0}{3}
+\beamer@subsectionintoc {3}{2}{Chemische Modelle}{35}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{1}{Warum sind Modelle so wichtig?}{35}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{2}{Atommodelle}{40}{0}{3}

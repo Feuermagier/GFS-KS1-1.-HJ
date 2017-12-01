@@ -1,0 +1,256 @@
+\documentclass{beamer}
+%\setbeamertemplate{navigation symbols}{}  %remove navigation symbols
+%Deutsch
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+%Mathe
+\usepackage{amsmath}
+%Einheiten
+\usepackage{siunitx}
+%Baumstrukturen
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{textcomp}   % allows \textrightarrow
+%Bildquellen
+\usepackage{varwidth}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\author{Florian Seligmann}
+\title{Modelle in Chemie}
+\date{\textbf{12.12.2017}}
+
+\tikzset{
+  invisible/.style={opacity=0},
+  visible on/.style={alt={#1{}{invisible}}},
+  alt/.code args={<#1>#2#3}{%
+    \alt<#1>{\pgfkeysalso{#2}}{\pgfkeysalso{#3}}
+  }
+}
+
+%Item mit Pfeil
+\newcommand{\aitem}{%
+\item[$\rightarrow$]
+}
+
+%Bildquellen
+\newcommand*{\quelle}{%
+  \tiny Quelle:
+}
+
+%Bilder
+\newcommand{\bild}[3]{%
+	\begin{figure}
+	\centering
+  \begin{varwidth}{\linewidth}
+    \raggedleft
+    \includegraphics[scale=#2]{#1}\\
+    \quelle\url{#3}
+  \end{varwidth}
+\end{figure}
+}
+
+%Einheiten
+\sisetup{
+  locale = DE ,
+  per-mode = symbol
+}
+
+%=====================================================================================================================================
+\begin{document}
+
+\frame{\titlepage}
+\frame{\frametitle{Gliederung}
+\tableofcontents
+} %End of frame
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Einleitendes Beispiel - Mischung von Wasser und Ethanol}
+\begin{itemize}
+	\item Phänomen: 50ml Wasser + 50ml Ethanol = 96ml Stoffgemisch 
+\pause
+	\item Zur Erklärung Verwendung eines Modells
+\pause
+	\item Moleküle = kleine Kügelchen
+\pause
+	\item Wassermoleküle kleiner als Ethanolmoleküle
+\pause
+	\item Modellexperiment: Ethanol = Erbsen; Wasser = Reiskörner
+\pause
+	\item Vermischung der beiden: Kleineres Volumen als die Summe der Einzelvolumina
+\pause
+	\item Erklärung: Reiskörner füllen die Lücken zwischen den Erbsen
+\pause
+	\item Schlussfolgerung: Kleinere Wassermoleküle füllen die Lücken zwischen den Ethanolmolekülen
+\end{itemize}
+} %End of frame
+%-------------------------------------------------------------------------------------------------------------------------------------
+\section{Eigenschaften von Modellen}
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Allgemein}
+\begin{itemize}
+\pause
+	\item \textbf{Abstraktion:} Weglassen von Unwichtigem
+\pause
+	\item \textbf{Dimension:} Vergrößerung / Verkleinerung
+\end{itemize}
+} %End of frame
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Anforderungen \& Ziele}
+\begin{itemize}
+\pause
+	\item Abbildung der Wirklichkeit
+\pause
+	\item Anschaulichkeit
+\pause
+	\item Einfachheit
+\pause
+	\item Zeit
+\pause
+	\item Preis
+\pause
+	\item Sicherheit
+\pause
+	\item Beeinflussbarkeit
+\end{itemize}
+} %End of frame
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Grenzen}
+\pause
+\textbf{Beispiel:}
+\bild{images/Globus.png}{0.25}{https://pixabay.com/de/globus-erde-welt-karte-geographie-2534766/}
+} %End of frame
+\frame{\frametitle{Grenzen}
+\bild{images/Weltkarte.jpg}{0.1}{https://www.welt-atlas.de/karte_von_welt_politisch_0-9043}
+} %End of frame
+\frame{\frametitle{Grenzen}
+\textbf{Beispiel:}
+\bild{images/deutschlandkarte.png}{0.8}{https://www.derweg.org/deutschland/gesamt/deutschlandkarte/}
+} %End of frame
+\frame{\frametitle{Grenzen}
+\textbf{Beispiel:}
+\bild{images/berlinKarte.jpg}{0.15}{http://www.city-cover.com/Berlin/city-cover/karte/karte1.htm}
+} %End of frame
+\frame{\frametitle{Grenzen}
+\begin{itemize}
+	\item[$\rightarrow$] Jedes Modell hat Grenzen
+	\pause
+	\item[$\rightarrow$] Modell $\neq$ Wirklichkeit
+\end{itemize}
+}
+%-------------------------------------------------------------------------------------------------------------------------------------
+\section{Arten von Modellen}
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Arten von Modellen}
+\centering
+%https://tex.stackexchange.com/questions/268578/beamer-uncovering-parts-of-qtree-syntax-tree
+\begin{tikzpicture}
+  \Tree 
+			[.Modelle
+					[. \node[visible on=<2->] {Materiell}; \edge [visible on=<3->]; \node[visible on=<3->] {Statisch}; \edge [visible on=<3->]; \node[visible on=<3->] 
+							{Simulation}; \edge [visible on=<3->]; \node[visible on=<3->] {\dots}; ]
+					[. \node[visible on=<2->] {Ideell}; \edge [visible on=<3->]; \node[visible on=<3->] {Sprachlich}; \edge [visible on=<3->]; \node[visible on=<3->] 
+							{Mathematisch}; \edge [visible on=<3->]; \node[visible on=<3->] {\dots}; ]
+			];
+\end{tikzpicture}
+} %End of frame
+%-------------------------------------------------------------------------------------------------------------------------------------
+\section{Beispiele}
+\subsection{Außerhalb der Chemie}
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Beispiele - Außerhalb der Chemie}
+\begin{itemize}
+\pause
+	\item Technische Modelle
+\end{itemize}
+\bild{images/TechnischesModell.jpg}{0.5}{https://www.technischesmuseum.at/objekt/modell-eines-dampfsudhauses-1959}
+} %End of frame
+\frame{\frametitle{Beispiele - Außerhalb der Chemie}
+\begin{itemize}
+	\item Fotografien:
+\end{itemize}
+\bild{images/blume.jpg}{0.3}{http://www.matthiashecht.de/index.php?category=Natur&bild=Blume-Natur}
+} %End of frame
+%-------------------------------------------------------------------------------------------------------------------------------------
+\subsection{Chemische Modelle}
+
+\subsubsection{Warum sind Modelle so wichtig?}
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Warum sind Modelle so wichtig? - Atommodelle}
+\begin{itemize}
+\pause
+	\item \textbf{Man kann Atome nicht sehen.} %Rastertunnelmikroskop -> lediglich elektrische Ströme (sog. Tunnelströme" -> Quantenmechanik)
+\pause
+	\aitem Modelle zur Erklärung notwendig
+\pause
+	\item \textbf{Es ist nicht bewiesen, dass es Atome gibt.}
+\pause
+	\aitem In den Naturwissenschaften kann nichts bewiesen werden!
+\end{itemize}
+}
+
+\subsubsection{Atommodelle}
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Atommodell Daltons}
+\begin{itemize}
+\pause
+	\item Materie besteht aus kleinsten, unteilbaren Teilchen $\rightarrow$ Atomen
+	\item Atome unterscheiden sich in Masse und Volumen
+	\item Elemente bestehen aus einem Atomtyp
+	\pause
+	\item[$\rightarrow$] Ausreichend für z.B. Brownsche Molekularbewegung
+	\pause
+	\item[$\rightarrow$] Nicht ausreichend für z.B. Bindungen
+\end{itemize}
+}
+
+\frame{\frametitle{Atommodell Rutherfords}
+\begin{itemize}
+	\item[\textbf{$\rightarrow$}] Erklärung der Ergebnisse des Rutherfordschen Streuversuchs
+	\pause
+	\item Atome sind nicht unteilbar
+	\item Kleiner Kern aus Protonen \& Neutronen 
+	\item Große fast leere Hülle mit Elektronen auf Kreisbahnen
+	\pause
+	\item[$\rightarrow$] Ausreichend für z.B. Ionen(bindungen)
+	\pause
+	\item[$\rightarrow$] Nicht ausreichend für z.B. kovalente Bindungen
+	\pause
+	\item[$\rightarrow$] \textbf{Warum stürzen Elektronen nicht in den Kern?}
+\end{itemize}
+}
+
+\frame{\frametitle{Atommodell Bohrs}
+\begin{itemize}
+	\item Atomhülle besteht aus Schalen $\rightarrow$ Quantenmechanik
+	\item Bewegung eines Elektrons nur in Schalen möglich
+	\item Kreisbahn in einer Schale stabil
+	\pause
+	\item[$\rightarrow$] Elektronen stürzen nicht in den Kern
+	\pause
+	\item[$\rightarrow$] Nicht ausreichend für z.B. kovalente Bindungen
+	\pause
+	\item[$\rightarrow$] \textbf{Warum hält der Atomkern zusammen?}
+\end{itemize}
+}
+
+\frame{\frametitle{Orbitalmodell}
+\begin{itemize}
+	\item Rein mathematisches Modell
+	\item Beschreibt den Aufbau der Atomhülle
+	\item Umsetzung der Quantenmechanik
+	\pause
+	\item[$\rightarrow$] Alle Beobachtungen der Chemie erklärbar
+\end{itemize}
+}
+
+\frame{\frametitle{Fazit}
+\begin{itemize}
+	\pause
+	\item Je detaillierter desto komplexer
+	\pause
+	\item Modelle entwickeln sich mit der Zeit
+\end{itemize}
+}
+%-------------------------------------------------------------------------------------------------------------------------------------
+
+\end{document}
