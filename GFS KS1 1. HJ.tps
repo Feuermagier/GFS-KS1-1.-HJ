@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=GFS KS1 1. HJ.tex
 
 [Frame0_View0,0]
-TopLine=172
-Cursor=6933
+TopLine=54
+Cursor=1665
 
 [SessionInfo]
 FrameCount=1
