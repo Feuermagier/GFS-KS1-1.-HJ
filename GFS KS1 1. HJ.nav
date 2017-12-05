@@ -4,9 +4,9 @@
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\slideentry {0}{0}{3}{3/10}{}{0}}
 \headcommand {\beamer@framepages {3}{10}}
+\headcommand {\sectionentry {1}{Eigenschaften von Modellen}{11}{Eigenschaften von Modellen}{0}}
 \headcommand {\beamer@sectionpages {1}{10}}
 \headcommand {\beamer@subsectionpages {1}{10}}
-\headcommand {\sectionentry {1}{Eigenschaften von Modellen}{11}{Eigenschaften von Modellen}{0}}
 \headcommand {\slideentry {1}{0}{1}{11/13}{}{0}}
 \headcommand {\beamer@framepages {11}{13}}
 \headcommand {\slideentry {1}{0}{2}{14/21}{}{0}}
@@ -21,22 +21,20 @@
 \headcommand {\beamer@framepages {26}{26}}
 \headcommand {\slideentry {1}{0}{7}{27/28}{}{0}}
 \headcommand {\beamer@framepages {27}{28}}
+\headcommand {\sectionentry {2}{Arten von Modellen}{29}{Arten von Modellen}{0}}
 \headcommand {\beamer@sectionpages {11}{28}}
 \headcommand {\beamer@subsectionpages {11}{28}}
-\headcommand {\sectionentry {2}{Arten von Modellen}{29}{Arten von Modellen}{0}}
 \headcommand {\slideentry {2}{0}{1}{29/31}{}{0}}
 \headcommand {\beamer@framepages {29}{31}}
+\headcommand {\sectionentry {3}{Beispiele}{32}{Beispiele}{0}}
 \headcommand {\beamer@sectionpages {29}{31}}
 \headcommand {\beamer@subsectionpages {29}{31}}
-\headcommand {\sectionentry {3}{Beispiele}{32}{Beispiele}{0}}
-\headcommand {\beamer@subsectionpages {32}{31}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{32}{Au\IeC {\ss }erhalb der Chemie}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{32}{Au\IeC {\ss }erhalb der Chemie}}\headcommand {\beamer@subsectionpages {32}{31}}
 \headcommand {\slideentry {3}{1}{1}{32/33}{Au\IeC {\ss }erhalb der Chemie}{0}}
 \headcommand {\beamer@framepages {32}{33}}
 \headcommand {\slideentry {3}{1}{2}{34/34}{Au\IeC {\ss }erhalb der Chemie}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\beamer@subsectionpages {32}{34}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{35}{Chemische Modelle}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{35}{Chemische Modelle}}\headcommand {\beamer@subsectionpages {32}{34}}
 \headcommand {\beamer@subsubsectionentry {0}{3}{2}{1}{35}{Warum sind Modelle so wichtig?}}
 \headcommand {\slideentry {3}{2}{1}{35/39}{Chemische Modelle}{0}}
 \headcommand {\beamer@framepages {35}{39}}
@@ -51,8 +49,13 @@
 \headcommand {\beamer@framepages {53}{54}}
 \headcommand {\slideentry {3}{2}{6}{55/57}{Chemische Modelle}{0}}
 \headcommand {\beamer@framepages {55}{57}}
-\headcommand {\beamer@partpages {1}{57}}
-\headcommand {\beamer@subsectionpages {35}{57}}
-\headcommand {\beamer@sectionpages {32}{57}}
-\headcommand {\beamer@documentpages {57}}
-\headcommand {\def \inserttotalframenumber {19}}
+\headcommand {\beamer@subsubsectionentry {0}{3}{2}{3}{58}{Kugel-Stab-Modelle}}
+\headcommand {\slideentry {3}{2}{7}{58/59}{Chemische Modelle}{0}}
+\headcommand {\beamer@framepages {58}{59}}
+\headcommand {\slideentry {3}{2}{8}{60/60}{Chemische Modelle}{0}}
+\headcommand {\beamer@framepages {60}{60}}
+\headcommand {\beamer@partpages {1}{60}}
+\headcommand {\beamer@subsectionpages {35}{60}}
+\headcommand {\beamer@sectionpages {32}{60}}
+\headcommand {\beamer@documentpages {60}}
+\headcommand {\def \inserttotalframenumber {21}}

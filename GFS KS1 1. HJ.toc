@@ -6,3 +6,4 @@
 \beamer@subsectionintoc {3}{2}{Chemische Modelle}{35}{0}{3}
 \beamer@subsubsectionintoc {3}{2}{1}{Warum sind Modelle so wichtig?}{35}{0}{3}
 \beamer@subsubsectionintoc {3}{2}{2}{Atommodelle}{40}{0}{3}
+\beamer@subsubsectionintoc {3}{2}{3}{Kugel-Stab-Modelle}{58}{0}{3}

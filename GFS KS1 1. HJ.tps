@@ -10,15 +10,15 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=36
-NormalPos.right=1886
-NormalPos.bottom=709
+NormalPos.top=26
+NormalPos.right=1706
+NormalPos.bottom=794
 Class=LaTeXView
 Document=GFS KS1 1. HJ.tex
 
 [Frame0_View0,0]
-TopLine=54
-Cursor=1665
+TopLine=230
+Cursor=8504
 
 [SessionInfo]
 FrameCount=1
