@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.20)  4 DEC 2017 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.20)  7 DEC 2017 19:23
 entering extended mode
 **"./GFS KS1 1. HJ.tex"
 ("GFS KS1 1. HJ.tex"
@@ -1761,11 +1761,17 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 
 ] [13
 
-] [14
+]
+Missing character: There is no ; in font nullfont!
+ [14
 
-] [15
+]
+Missing character: There is no ; in font nullfont!
+ [15
 
-] [16
+]
+Missing character: There is no ; in font nullfont!
+ [16
 
 ] [17
 
@@ -1778,91 +1784,84 @@ File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mat
 
 ] [21
 
-] <images/Globus.png, id=582, 693.59125pt x 722.7pt>
+] [22
+
+] [23
+
+] [24
+
+] <images/Globus.png, id=656, 693.59125pt x 722.7pt>
 File: images/Globus.png Graphic file (type png)
  <use images/Globus.png>
-Package pdftex.def Info: images/Globus.png used on input line 121.
+Package pdftex.def Info: images/Globus.png used on input line 137.
 (pdftex.def)             Requested size: 173.39738pt x 180.67455pt.
- [22
+ [25
 
  <./images/Globus.png>]
 File: images/Globus.png Graphic file (type png)
-
-<use images/Globus.png>
-Package pdftex.def Info: images/Globus.png used on input line 121.
+ <use images/Globus.png>
+Package pdftex.def Info: images/Globus.png used on input line 137.
 (pdftex.def)             Requested size: 173.39738pt x 180.67455pt.
- [23
+ [26
 
-] <images/Weltkarte.jpg, id=639, 2666.46187pt x 1729.21031pt>
+] <images/Weltkarte.jpg, id=714, 2666.46187pt x 1729.21031pt>
 File: images/Weltkarte.jpg Graphic file (type jpg)
- <use images/Weltkarte.jpg>
-Package pdftex.def Info: images/Weltkarte.jpg used on input line 124.
+
+<use images/Weltkarte.jpg>
+Package pdftex.def Info: images/Weltkarte.jpg used on input line 140.
 (pdftex.def)             Requested size: 266.6618pt x 172.93115pt.
+ [27
 
-[24
-
- <./images/Weltkarte.jpg>] <images/deutschlandkarte.png, id=666, 182.3613pt x 242.3454pt>
+ <./images/Weltkarte.jpg>] <images/deutschlandkarte.png, id=741, 182.3613pt x 242.3454pt>
 File: images/deutschlandkarte.png Graphic file (type png)
 
 <use images/deutschlandkarte.png>
-Package pdftex.def Info: images/deutschlandkarte.png used on input line 128.
+Package pdftex.def Info: images/deutschlandkarte.png used on input line 144.
 (pdftex.def)             Requested size: 145.88922pt x 193.87657pt.
- [25
+ [28
 
  <./images/deutschlandkarte.png (PNG copy)>]
-<images/berlinKarte.jpg, id=694, 2094.82625pt x 1171.37625pt>
+<images/berlinKarte.jpg, id=768, 2094.82625pt x 1171.37625pt>
 File: images/berlinKarte.jpg Graphic file (type jpg)
  <use images/berlinKarte.jpg>
-Package pdftex.def Info: images/berlinKarte.jpg used on input line 132.
+Package pdftex.def Info: images/berlinKarte.jpg used on input line 148.
 (pdftex.def)             Requested size: 314.21037pt x 175.69885pt.
 
-Overfull \hbox (6.9205pt too wide) in paragraph at lines 132--132
+Overfull \hbox (6.9205pt too wide) in paragraph at lines 148--148
  [][]
  []
 
 
-Overfull \hbox (6.9205pt too wide) detected at line 132
+Overfull \hbox (6.9205pt too wide) detected at line 148
  [][]
  []
 
-[26
+[29
 
- <./images/berlinKarte.jpg>] [27
+ <./images/berlinKarte.jpg>] [30
 
-] [28
+] [31
 
-]
-Missing character: There is no ; in font nullfont!
- [29
-
-]
-Missing character: There is no ; in font nullfont!
- [30
-
-]
-Missing character: There is no ; in font nullfont!
- [31
-
-]
-<images/TechnischesModell.jpg, id=845, 466.74374pt x 261.22594pt>
+] <images/TechnischesModell.jpg, id=845, 466.74374pt x 261.22594pt>
 File: images/TechnischesModell.jpg Graphic file (type jpg)
- <use images/TechnischesModell.jpg>
-Package pdftex.def Info: images/TechnischesModell.jpg used on input line 166.
+
+<use images/TechnischesModell.jpg>
+Package pdftex.def Info: images/TechnischesModell.jpg used on input line 167.
 (pdftex.def)             Requested size: 233.37129pt x 130.61264pt.
  [32
 
  <./images/TechnischesModell.jpg>]
 File: images/TechnischesModell.jpg Graphic file (type jpg)
  <use images/TechnischesModell.jpg>
-Package pdftex.def Info: images/TechnischesModell.jpg used on input line 166.
+Package pdftex.def Info: images/TechnischesModell.jpg used on input line 167.
 (pdftex.def)             Requested size: 233.37129pt x 130.61264pt.
  [33
 
-] <images/blume.jpg, id=898, 642.4pt x 428.60126pt>
+]
+<images/blume.jpg, id=898, 642.4pt x 428.60126pt>
 File: images/blume.jpg Graphic file (type jpg)
-
-<use images/blume.jpg>
-Package pdftex.def Info: images/blume.jpg used on input line 172.
+ <use images/blume.jpg>
+Package pdftex.def Info: images/blume.jpg used on input line 173.
 (pdftex.def)             Requested size: 192.72148pt x 128.58136pt.
  [34
 
@@ -1872,7 +1871,8 @@ Package pdftex.def Info: images/blume.jpg used on input line 172.
 
 ] [37
 
-] [38
+]
+[38
 
 ] [39
 
@@ -1892,8 +1892,7 @@ Package pdftex.def Info: images/blume.jpg used on input line 172.
 
 ] [47
 
-]
-[48
+] [48
 
 ] [49
 
@@ -1913,22 +1912,30 @@ Package pdftex.def Info: images/blume.jpg used on input line 172.
 
 ] [57
 
-] <images/strukturmodell.jpg, id=1503, 195.73125pt x 109.1578pt>
+]
+<images/strukturmodell.jpg, id=1503, 195.73125pt x 109.1578pt>
 File: images/strukturmodell.jpg Graphic file (type jpg)
-
-<use images/strukturmodell.jpg>
-Package pdftex.def Info: images/strukturmodell.jpg used on input line 261.
+ <use images/strukturmodell.jpg>
+Package pdftex.def Info: images/strukturmodell.jpg used on input line 262.
 (pdftex.def)             Requested size: 195.73076pt x 109.15753pt.
  [58
 
  <./images/strukturmodell.jpg>]
 File: images/strukturmodell.jpg Graphic file (type jpg)
  <use images/strukturmodell.jpg>
-Package pdftex.def Info: images/strukturmodell.jpg used on input line 261.
+Package pdftex.def Info: images/strukturmodell.jpg used on input line 262.
 (pdftex.def)             Requested size: 195.73076pt x 109.15753pt.
  [59
 
 ] [60
+
+] [61
+
+] [62
+
+] [63
+
+] [64
 
 ]
 \tf@nav=\write6
@@ -1940,20 +1947,19 @@ Package pdftex.def Info: images/strukturmodell.jpg used on input line 261.
 \tf@snm=\write8
 \openout8 = `"GFS KS1 1. HJ.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
-
-("GFS KS1 1. HJ.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
+ ("GFS KS1 1. HJ.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
 Package rerunfilecheck Info: File `"GFS KS1 1. HJ".out' has not changed.
 (rerunfilecheck)             Checksum: FD141987BD05BE31A5C6F5C89358F43B;303.
  ) 
 Here is how much of TeX's memory you used:
- 32013 strings out of 493323
- 648715 string characters out of 3139065
- 687959 words of memory out of 3000000
- 34874 multiletter control sequences out of 15000+200000
+ 32025 strings out of 493323
+ 648759 string characters out of 3139065
+ 687975 words of memory out of 3000000
+ 34878 multiletter control sequences out of 15000+200000
  539634 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,59p,10385b,736s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1961,10 +1967,11 @@ Here is how much of TeX's memory you used:
 /amsfonts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:
 /Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmtt8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "GFS KS1 1. HJ.pdf" (60 pages, 5525002 bytes).
+onts/cm/cmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "GFS KS1 1. HJ.pdf" (64 pages, 5561693 bytes).
 PDF statistics:
- 1637 PDF objects out of 1728 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
+ 1748 PDF objects out of 2073 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

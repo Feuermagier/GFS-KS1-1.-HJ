@@ -17,7 +17,7 @@
 \usepackage{hyperref}
 
 \author{Florian Seligmann}
-\title{Modelle in Chemie}
+\title{Modelle in der Chemie}
 \date{\textbf{12.12.2017}}
 
 \tikzset{
@@ -95,6 +95,22 @@
 \end{itemize}
 } %End of frame
 %-------------------------------------------------------------------------------------------------------------------------------------
+\section{Arten von Modellen}
+%-------------------------------------------------------------------------------------------------------------------------------------
+\frame{\frametitle{Arten von Modellen}
+\centering
+%https://tex.stackexchange.com/questions/268578/beamer-uncovering-parts-of-qtree-syntax-tree
+\begin{tikzpicture}
+  \Tree 
+			[.Modelle
+					[. \node[visible on=<2->] {Materiell}; \edge [visible on=<3->]; \node[visible on=<3->] {Statisch}; \edge [visible on=<3->]; \node[visible on=<3->] 
+							{Simulation}; \edge [visible on=<3->]; \node[visible on=<3->] {\dots}; ]
+					[. \node[visible on=<2->] {Ideell}; \edge [visible on=<3->]; \node[visible on=<3->] {Sprachlich}; \edge [visible on=<3->]; \node[visible on=<3->] 
+							{Mathematisch}; \edge [visible on=<3->]; \node[visible on=<3->] {\dots}; ]
+			];
+\end{tikzpicture}
+} %End of frame
+%-------------------------------------------------------------------------------------------------------------------------------------
 \frame{\frametitle{Anforderungen \& Ziele}
 \begin{itemize}
 \pause
@@ -137,22 +153,7 @@
 	\item[$\rightarrow$] Modell $\neq$ Wirklichkeit
 \end{itemize}
 }
-%-------------------------------------------------------------------------------------------------------------------------------------
-\section{Arten von Modellen}
-%-------------------------------------------------------------------------------------------------------------------------------------
-\frame{\frametitle{Arten von Modellen}
-\centering
-%https://tex.stackexchange.com/questions/268578/beamer-uncovering-parts-of-qtree-syntax-tree
-\begin{tikzpicture}
-  \Tree 
-			[.Modelle
-					[. \node[visible on=<2->] {Materiell}; \edge [visible on=<3->]; \node[visible on=<3->] {Statisch}; \edge [visible on=<3->]; \node[visible on=<3->] 
-							{Simulation}; \edge [visible on=<3->]; \node[visible on=<3->] {\dots}; ]
-					[. \node[visible on=<2->] {Ideell}; \edge [visible on=<3->]; \node[visible on=<3->] {Sprachlich}; \edge [visible on=<3->]; \node[visible on=<3->] 
-							{Mathematisch}; \edge [visible on=<3->]; \node[visible on=<3->] {\dots}; ]
-			];
-\end{tikzpicture}
-} %End of frame
+
 %-------------------------------------------------------------------------------------------------------------------------------------
 \section{Beispiele}
 \subsection{Außerhalb der Chemie}
@@ -266,5 +267,25 @@
 	\end{itemize}
 }
 %-------------------------------------------------------------------------------------------------------------------------------------
+
+\frame{\frametitle{Fazit}
+
+	\begin{itemize}
+		\pause
+		\item Chemie benötigt Modelle
+		\pause
+		\item Modelle nie gleich Wirklichkeit
+	\end{itemize}
+}
+
+%-------------------------------------------------------------------------------------------------------------------------------------
+
+\frame{\frametitle{Quellen}
+	\begin{itemize}
+		\item \url{http://www.cumschmidt.de/s_modelle01.htm} (Letzter Zugriff: 07.12.2017 17:58)
+		\item \url{http://daten.didaktikchemie.uni-bayreuth.de/s_medien/M_Modelle.htm} (Letzter Zugriff: )
+		\item \url{https://www.chemie-schule.de/Anorganische_Chemie/Modelle_in_der_Chemie.php} (Letzter Zugriff: )
+	\end{itemize}
+}
 
 \end{document}
