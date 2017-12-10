@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=758
+NormalPos.right=1706
 NormalPos.bottom=794
 Class=LaTeXView
 Document=GFS KS1 1. HJ.tex
 
 [Frame0_View0,0]
-TopLine=293
-Cursor=8863
+TopLine=59
+Cursor=1541
 
 [Frame1]
 Flags=0
@@ -27,7 +27,7 @@ MinPos.x=-1
 MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
-NormalPos.left=767
+NormalPos.left=4
 NormalPos.top=26
 NormalPos.right=1706
 NormalPos.bottom=794
@@ -35,7 +35,7 @@ Class=LaTeXView
 Document=Handout.tex
 
 [Frame1_View0,0]
-TopLine=49
+TopLine=27
 Cursor=1607
 
 [SessionInfo]

@@ -1,9 +1,10 @@
 \select@language {ngerman}
-\beamer@sectionintoc {1}{Eigenschaften von Modellen}{11}{0}{1}
-\beamer@sectionintoc {2}{Arten von Modellen}{14}{0}{2}
-\beamer@sectionintoc {3}{Beispiele}{32}{0}{3}
-\beamer@subsectionintoc {3}{1}{Au\IeC {\ss }erhalb der Chemie}{32}{0}{3}
-\beamer@subsectionintoc {3}{2}{Chemische Modelle}{35}{0}{3}
-\beamer@subsubsectionintoc {3}{2}{1}{Warum sind Modelle so wichtig?}{35}{0}{3}
-\beamer@subsubsectionintoc {3}{2}{2}{Atommodelle}{40}{0}{3}
-\beamer@subsubsectionintoc {3}{2}{3}{Kugel-Stab-Modelle}{58}{0}{3}
+\beamer@sectionintoc {1}{Eigenschaften von Modellen}{12}{0}{1}
+\beamer@sectionintoc {2}{Arten von Modellen}{15}{0}{2}
+\beamer@sectionintoc {3}{Anforderungen, Ziele \& Grenzen}{18}{0}{3}
+\beamer@sectionintoc {4}{Beispiele}{33}{0}{4}
+\beamer@subsectionintoc {4}{1}{Au\IeC {\ss }erhalb der Chemie}{33}{0}{4}
+\beamer@subsectionintoc {4}{2}{Chemische Modelle}{36}{0}{4}
+\beamer@subsubsectionintoc {4}{2}{1}{Warum sind Modelle so wichtig?}{36}{0}{4}
+\beamer@subsubsectionintoc {4}{2}{2}{Atommodelle}{41}{0}{4}
+\beamer@subsubsectionintoc {4}{2}{3}{Kugel-Stab-Modelle}{59}{0}{4}
