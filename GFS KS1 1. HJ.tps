@@ -14,11 +14,11 @@ NormalPos.top=26
 NormalPos.right=1706
 NormalPos.bottom=794
 Class=LaTeXView
-Document=GFS KS1 1. HJ.tex
+Document=Handout.tex
 
 [Frame0_View0,0]
-TopLine=59
-Cursor=1541
+TopLine=48
+Cursor=1607
 
 [Frame1]
 Flags=0
@@ -32,13 +32,13 @@ NormalPos.top=26
 NormalPos.right=1706
 NormalPos.bottom=794
 Class=LaTeXView
-Document=Handout.tex
+Document=GFS KS1 1. HJ.tex
 
 [Frame1_View0,0]
-TopLine=27
-Cursor=1607
+TopLine=194
+Cursor=7834
 
 [SessionInfo]
 FrameCount=2
-ActiveFrame=0
+ActiveFrame=1
 
